@@ -1,0 +1,16 @@
+{
+	"name": "Chrome Night Mode",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Night Mode for Google Chrome",
+	"icons": {
+		"256": "black256.png"
+	},
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"css": ["night.css"]
+	}],
+	"permissions": [
+		"tabs"
+	]
+}

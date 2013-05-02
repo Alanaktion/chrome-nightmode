@@ -1,0 +1,4 @@
+body {
+	-webkit-filter: invert() !important;
+	background: #000;
+}
